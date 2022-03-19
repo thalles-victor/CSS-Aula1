@@ -1,0 +1,48 @@
+body {
+  margin: 0px;
+  padding: 0px;
+
+  background-color: #161616;
+}
+
+h1 {
+  font-weight: normal;
+  font-family: 'Rhodium Libre';
+  color: white;
+}
+
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;  
+}
+
+.title {
+  margin-bottom: 100px;
+}
+
+.Ricipes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Card-Recipe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image-result {
+  height: 195px;
+  width: 359px;
+
+  box-shadow: 2px 2px 21px 0px rgba(111, 111, 111, 0.2);
+}
+
+.recipe-name {
+  font-size: 24px;
+  text-align: center;
+}

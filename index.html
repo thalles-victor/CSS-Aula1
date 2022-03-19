@@ -28,10 +28,16 @@
           class="inp-password"
         >
       </div>
-      <button class="btn-submit">Submit</button>
+      <button class="btn-submit" onClick="toRecipePage()">Submit</button>
       <div class="forgot-container">
         <h1 class="forgot-password" > Forgot a password</h1>
       </div>
+
+      <script>
+        function toRecipePage() {
+          window.location.href="./pages/recipe/recipe-page.html"
+        }
+      </script>
     </div>
   </body>
 </html>
