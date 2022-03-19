@@ -1,6 +1,6 @@
 export const recipe = [
   {
-    name: 'Petisco com Vina ',
+    name: 'Petisco com Vina',
     urlImage: 'https://s2.glbimg.com/AXaoYCopgcL0wELPkAR1fdtjYSI=/0x0:1080x608/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2022/f/X/zBfiNAR8KZu6QgTgQnSg/capa-materia-gshow-2022-01-15t154112.695.png'
   },
   {

@@ -1,0 +1,124 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #161616;
+}
+
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(3px);
+    box-shadow: 4px 5px 30px 10px rgba(57, 21, 185, 0.32);
+    
+  }
+
+  50% {
+    box-shadow: 4px 5px 30px 8px rgba(185, 21, 84, 0.4);
+    
+  }
+
+
+  100% {
+    transform: translateY(0);
+    box-shadow: 4px 5px 30px 10px rgba(106, 22, 139, 0.32);
+  }
+}
+
+.Logo {
+  width: 208px;
+  height: 208px;
+  margin-top: 136px;
+  margin-bottom: 23px;
+
+  border-radius: 10px;
+
+  animation: up-down 5s infinite alternate;
+}
+
+h1 {
+  font-weight: normal;
+  font-family: 'Rhodium Libre';
+}
+.Form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input {
+  text-align: initial;
+  font-size: 16px;
+
+  padding: 0px 17px;
+  
+  height: 62px;
+  width: 362px;
+  
+  border-radius: 6px;
+  border: 1px solid;
+
+  color: black;
+}
+
+.inp-email {
+  font-family: 'Rhodium Libre';
+  box-shadow: 4px 7px 8px rgba(255, 12, 216, 0.25);
+}
+
+.inp-password {
+  margin-top: 53px;
+  margin-bottom: 26px;
+  font-family: 'Rhodium Libre';
+  box-shadow: 4px 7px 8px rgba(133, 255, 12, 0.25);
+}
+
+.inp-email::placeholder {
+  color: blue;
+}
+.inp-password::placeholder {
+  color: blue;
+}
+
+.btn-submit {
+  font-size: 16px;
+  padding: 15px 174px;
+
+  border: 0px;
+  border-radius: 4px;
+
+  color: white;
+  background-color:#8D1A74;
+  box-shadow: 4px 5px 8px rgba(60, 78, 144, 0.32);
+
+  transition: background .2s;
+}
+.btn-submit:hover {
+  cursor: pointer;
+  background-color: #AF0B8B;
+}
+
+.forgot-container {
+  width: 400px;
+}
+
+.forgot-password {
+  font-size: 16px;
+  text-decoration: underline;
+  text-align: end;
+
+  color: #FFC700;
+
+  transition: color .2s;
+}
+
+.forgot-password:hover {
+  cursor: pointer;
+  color: #d1b654;
+}
