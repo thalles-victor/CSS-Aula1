@@ -26,6 +26,7 @@ h1 {
 .Ricipes {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 150px 70px;
 }
 
 .Card-Recipe {
@@ -35,9 +36,15 @@ h1 {
   flex-direction: column;
 }
 
+.Card-Recipe:hover {
+  cursor: pointer;
+}
+
 .image-result {
   height: 195px;
   width: 359px;
+
+  border-radius: 1px;
 
   box-shadow: 2px 2px 21px 0px rgba(111, 111, 111, 0.2);
 }
